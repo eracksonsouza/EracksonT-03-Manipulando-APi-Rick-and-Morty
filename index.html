@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricky and Morty</title>
+    <link rel="shortcut icon" href="./src/image/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+<body>
+    <main>
+        <div class="filter-select">
+            <label for="species-filter">Filtrar por espécies: </label>
+            <select id="species-filter">
+                <option value="all">Todas as Espécies</option>
+                <option value="human">Humano</option>
+                <option value="alien">Alienígena</option>
+                <option value="unknown">Desconhecido</option>
+            </select>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                
+            </div>
+            
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
